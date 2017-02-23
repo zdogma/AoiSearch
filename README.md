@@ -1,6 +1,9 @@
 AoiSearch
 ===
 
+<img src="https://cloud.githubusercontent.com/assets/1973683/23260845/1f0cde4c-fa17-11e6-8c64-798ba8efe8e7.png" width=150px>
+< これは穏やかじゃないわね！
+
 ## Description
 Google Maps API への検索条件をラベル付きで保存し、いつでも呼び出せる iOS アプリ。
 
