@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		32F8E5F04AA93ADFD028B350 /* Pods_AoiSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB6B97D072CA3F60C631333 /* Pods_AoiSearch.framework */; };
+		341AC8C71E67B7C300C0AE91 /* SearchContextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341AC8C61E67B7C300C0AE91 /* SearchContextTableViewController.swift */; };
+		342D33871E680AFA00795B47 /* PlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D33861E680AFA00795B47 /* PlaceTableViewController.swift */; };
+		34486B841E680E2E00200A09 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34486B831E680E2E00200A09 /* Place.swift */; };
+		34486B861E68101100200A09 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34486B851E68101100200A09 /* PlaceTableViewCell.swift */; };
 		34AC95E61E5F169A007016A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AC95E51E5F169A007016A6 /* AppDelegate.swift */; };
 		34AC95EB1E5F169A007016A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AC95E91E5F169A007016A6 /* Main.storyboard */; };
 		34AC95ED1E5F169A007016A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AC95EC1E5F169A007016A6 /* Assets.xcassets */; };
 		34AC95F01E5F169A007016A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AC95EE1E5F169A007016A6 /* LaunchScreen.storyboard */; };
+		34F032771E67E80C00CCAD4D /* SearchContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F032761E67E80C00CCAD4D /* SearchContext.swift */; };
+		34F032791E67FF9500CCAD4D /* SearchContextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F032781E67FF9500CCAD4D /* SearchContextTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16BF71DA55C9BC2BAECC4E8B /* Pods-AoiSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AoiSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AoiSearch/Pods-AoiSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		341AC8C61E67B7C300C0AE91 /* SearchContextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContextTableViewController.swift; sourceTree = "<group>"; };
+		342D33861E680AFA00795B47 /* PlaceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewController.swift; sourceTree = "<group>"; };
+		34486B831E680E2E00200A09 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		34486B851E68101100200A09 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		34AC95E21E5F169A007016A6 /* AoiSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AoiSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AC95E51E5F169A007016A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34AC95EA1E5F169A007016A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34AC95EC1E5F169A007016A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34AC95EF1E5F169A007016A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34AC95F11E5F169A007016A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F032761E67E80C00CCAD4D /* SearchContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContext.swift; sourceTree = "<group>"; };
+		34F032781E67FF9500CCAD4D /* SearchContextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContextTableViewCell.swift; sourceTree = "<group>"; };
 		ABB6B97D072CA3F60C631333 /* Pods_AoiSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AoiSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65DBC35CD738FD6B1240D29 /* Pods-AoiSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AoiSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-AoiSearch/Pods-AoiSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,9 +82,15 @@
 			children = (
 				34AC95E51E5F169A007016A6 /* AppDelegate.swift */,
 				34AC95E91E5F169A007016A6 /* Main.storyboard */,
+				34486B851E68101100200A09 /* PlaceTableViewCell.swift */,
+				342D33861E680AFA00795B47 /* PlaceTableViewController.swift */,
+				34486B831E680E2E00200A09 /* Place.swift */,
+				34F032781E67FF9500CCAD4D /* SearchContextTableViewCell.swift */,
 				34AC95EC1E5F169A007016A6 /* Assets.xcassets */,
 				34AC95EE1E5F169A007016A6 /* LaunchScreen.storyboard */,
 				34AC95F11E5F169A007016A6 /* Info.plist */,
+				341AC8C61E67B7C300C0AE91 /* SearchContextTableViewController.swift */,
+				34F032761E67E80C00CCAD4D /* SearchContext.swift */,
 			);
 			path = AoiSearch;
 			sourceTree = "<group>";
@@ -223,7 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341AC8C71E67B7C300C0AE91 /* SearchContextTableViewController.swift in Sources */,
+				34F032771E67E80C00CCAD4D /* SearchContext.swift in Sources */,
+				34F032791E67FF9500CCAD4D /* SearchContextTableViewCell.swift in Sources */,
+				34486B861E68101100200A09 /* PlaceTableViewCell.swift in Sources */,
+				34486B841E680E2E00200A09 /* Place.swift in Sources */,
 				34AC95E61E5F169A007016A6 /* AppDelegate.swift in Sources */,
+				342D33871E680AFA00795B47 /* PlaceTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
