@@ -7,6 +7,7 @@ target 'AoiSearch' do
 
   # Pods for AoiSearch
   pod 'SwiftLint'
+  pod 'Kingfisher', '~> 3.0'
 end
 
 post_install do |installer|

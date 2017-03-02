@@ -1,120 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="F7A-QN-fXl">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Seach Context Table View Controller-->
+        <scene sceneID="2Cm-Fd-VdQ">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AoiSearch" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="BaseView">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                <tableViewController title="Seach Context Table View Controller" id="FTX-iz-8Be" customClass="SearchContextTableViewController" customModule="AoiSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="hsB-BO-xZL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kue-qT-Uqc">
-                                <rect key="frame" x="0.0" y="94" width="375" height="806"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2e-iC-QXp">
-                                        <rect key="frame" x="12" y="101" width="350" height="687"/>
-                                        <mutableString key="text">以下はスクロールチェック用のダミー文章である。アプリの名前はまだ無い。
-　どこで生れたか頓（とん）と見當がつかぬ。何でも薄暗いじめじめした所でニヤーニヤー泣いて居た事丈は記憶して居る。吾輩はこゝで始めて人間といふものを見た。然（しか）もあとで聞くとそれは書生といふ人間中で一番獰悪（だうあく）な種族であつたさうだ。此書生といふのは時々我々を捕（つかま）へて煮て食ふといふ話である。然し其當時は何といふ考（かんがへ）もなかつたから別段恐しいとも思はなかつた。但（たゞ）彼の掌（てのひら）に載せられてスーと持ち上げられた時何だかフハフハした感じが有つた許（ばか）りである。掌の上で少し落ち付いて書生の顔を見たのが所謂（いはゆる）人間といふものゝ見始（みはじめ）であらう。此時妙なものだと思つた感じが今でも殘つて居る。第一毛を以て装飾されべき筈の顔がつるつるして丸で薬罐（やくわん）だ。其後猫にも大分逢つたがこんな片輪には一度も出會（でく）はした事がない。加之（のみならず）顔の眞中が餘りに突起して居る。そうして其穴の中から時々ぷうぷうと烟（けむり）を吹く。どうも咽（む）せぽくて實に弱つた。是が人間の飲む烟草（たばこ）といふものである事は漸く此頃（このごろ）知つた。
-　此書生の掌の裏（うち）でしばらくはよい心持に坐つて居つたが、暫くすると非常な速力で運轉し始めた。書生が動くのか自分丈（だけ）が動くのか分らないが無暗に眼が廻る。胸が惡くなる。到底助からないと思つて居ると、どさりと音がして眼から火が出た。夫迄（それまで）は記憶して居るがあとは何の事やらいくら考へ出さうとしても分らない。　ふと氣が付いて見ると書生は居ない。澤山居つた兄弟が一疋（ぴき）も見えぬ。肝心の母親さへ姿を隱して仕舞つた。其上今迄の所とは違つて無暗に明るい。眼を明いて居（ゐ）られぬ位だ。果てな何でも容子（ようす）が可笑（をかし）いと、のそのそ這ひ出して見ると非常に痛い。吾輩は藁（わら）の上から急に笹原の中へ棄てられたのである。
-　漸くの思ひで笹原を這ひ出すと向ふに大きな池がある。吾輩は池の前に坐つてどうしたらよからうと考へて見た。別に是（これ）といふ分別も出ない。暫くして泣いたら書生が又迎（むかひ）に來てくれるかと考へ付いた。ニヤー、ニヤーと試みにやつて見たが誰も來ない。其内池の上をさらさらと風が渡つて日が暮れかゝる。腹が非常に減つて來た。泣き度（た）くても聲が出ない。仕方がない、何でもよいから食物（くひもの）のある所迄あるかうと決心をしてそろりそろりと池を左りに廻り始めた。どうも非常に苦しい。そこを我慢して無理やりに這つて行くと漸くの事で何となく人間臭い所へ出た。此所（こゝ）へ這入つたら、どうにかなると思つて竹垣の崩れた穴から、とある邸内にもぐり込んだ。縁は不思議なもので、もし此竹垣が破れて居なかつたなら、吾輩は遂に路傍に餓死したかも知れんのである。一樹の蔭（かげ）とはよく云つたものだ。此垣根の穴は今日（こんにち）に至る迄吾輩が隣家（となり）の三毛（みけ）を訪問する時の通路になつて居る。偖（さて）邸（やしき）へは忍び込んだものゝ是から先どうして善（い）いか分らない。其内に暗くなる、腹は減る、寒さは寒し、雨が降つて來るといふ始末でもう一刻も猶豫が出來なくなつた。仕方がないから兎に角明るくて暖かさうな方へ方へとあるいて行（ゆ）く。今から考へると其時は既に家（いへ）の内に這入つて居（を）つたのだ。こゝで吾輩は彼（か）の書生以外の人間を再び見るべき機會に遭遇したのである。第一に逢つたのがおさんである。是は前の書生より一層亂暴な方で吾輩を見るや否やいきなり頸筋（くびすじ）をつかんで表へ抛（はふ）り出した。いや是は駄目だと思つたから眼をねぶつて運を天に任せて居た。然しひもじいのと寒いのにはどうしても我慢が出來ん。吾輩は再びおさんの隙（すき）を見て臺所へ這ひ上（あが）つた。すると間もなく又投げ出された。吾輩は投げ出されては這ひ上り、這ひ上つては投げ出され、何でも同じ事を四五遍繰り返したのを記憶して居る。其時におさんと云ふ者はつくづくいやになつた。此間おさんの三馬（さんま）を偸（ぬす）んで此返報をしてやつてから、やつと胸の痞（つかへ）が下（お）りた。吾輩が最後につまみ出され樣としたときに、此家（このうち）の主人が騷々しい何だといひながら出て來た。下女は吾輩をぶら下げて主人の方へ向けて此宿なしの小猫がいくら出しても出しても御臺所へ上つて來て困りますといふ。主人は鼻の下の黑い毛を撚（ひね）りながら吾輩の顔を暫く眺めて居つたが、やがてそんなら内へ置いてやれといつたまゝ奥へ這入つて仕舞つた。主人は餘り口を聞かぬ人と見えた。下女は口惜しさうに吾輩を臺所へ抛り出した。かくして吾輩は遂に此家（うち）を自分の住家（すみか）と極（き）める事にしたのである。</mutableString>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rpu-wE-Nc4" userLabel="TitleView">
-                                        <rect key="frame" x="12" y="16" width="350" height="60"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="タイトル" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1i-jI-phi">
-                                                <rect key="frame" x="7" y="20" width="68" height="21"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="68" id="Tdo-ov-5MK"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ait-9t-pJm" userLabel="LineView">
-                                                <rect key="frame" x="5" y="51" width="337" height="1"/>
-                                                <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                            </view>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="yyyymmddhhmmss" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rr0-MQ-aLB" userLabel="TitleTextField">
-                                                <rect key="frame" x="83.333333333333343" y="9" width="258.66666666666663" height="35"/>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                                <textInputTraits key="textInputTraits" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
-                                            </textField>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="ait-9t-pJm" firstAttribute="top" secondItem="Rr0-MQ-aLB" secondAttribute="bottom" constant="7" id="1Ef-YX-yV2"/>
-                                            <constraint firstItem="ait-9t-pJm" firstAttribute="top" secondItem="Rpu-wE-Nc4" secondAttribute="top" constant="51" id="94Q-Tl-qfB"/>
-                                            <constraint firstItem="e1i-jI-phi" firstAttribute="leading" secondItem="Rpu-wE-Nc4" secondAttribute="leading" constant="7" id="F3g-6r-Df8"/>
-                                            <constraint firstItem="Rr0-MQ-aLB" firstAttribute="leading" secondItem="e1i-jI-phi" secondAttribute="trailing" constant="8.3333333333333428" id="NDn-fV-S6b"/>
-                                            <constraint firstItem="e1i-jI-phi" firstAttribute="top" secondItem="Rpu-wE-Nc4" secondAttribute="top" constant="20" id="RPa-pA-sWA"/>
-                                            <constraint firstAttribute="trailing" secondItem="ait-9t-pJm" secondAttribute="trailing" constant="8" id="RgC-Ec-Dka"/>
-                                            <constraint firstItem="ait-9t-pJm" firstAttribute="trailing" secondItem="Rr0-MQ-aLB" secondAttribute="trailing" id="dq0-Bp-bA3"/>
-                                            <constraint firstItem="Rr0-MQ-aLB" firstAttribute="top" secondItem="Rpu-wE-Nc4" secondAttribute="top" constant="9" id="hdB-EF-qYC"/>
-                                            <constraint firstAttribute="height" constant="60" id="jeg-vn-lWb"/>
-                                            <constraint firstItem="e1i-jI-phi" firstAttribute="centerY" secondItem="Rpu-wE-Nc4" secondAttribute="centerY" id="kdP-d2-vVD"/>
-                                            <constraint firstItem="ait-9t-pJm" firstAttribute="leading" secondItem="Rpu-wE-Nc4" secondAttribute="leading" constant="5" id="pBA-oU-Xfn"/>
-                                            <constraint firstAttribute="bottom" secondItem="ait-9t-pJm" secondAttribute="bottom" constant="8" id="wB1-Te-EkN"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="Rpu-wE-Nc4" firstAttribute="leading" secondItem="Kue-qT-Uqc" secondAttribute="leading" constant="12" id="Gqs-5P-zrB"/>
-                                    <constraint firstAttribute="trailing" secondItem="d2e-iC-QXp" secondAttribute="trailing" constant="13" id="NBB-xU-Yr0"/>
-                                    <constraint firstAttribute="bottom" secondItem="Rpu-wE-Nc4" secondAttribute="bottom" constant="730" id="SF5-gy-zsq"/>
-                                    <constraint firstItem="d2e-iC-QXp" firstAttribute="leading" secondItem="Kue-qT-Uqc" secondAttribute="leading" constant="12" id="SfC-Nj-gjM"/>
-                                    <constraint firstItem="d2e-iC-QXp" firstAttribute="top" secondItem="Rpu-wE-Nc4" secondAttribute="bottom" constant="25" id="kUP-f1-er2"/>
-                                    <constraint firstItem="Rpu-wE-Nc4" firstAttribute="top" secondItem="Kue-qT-Uqc" secondAttribute="top" constant="16" id="m4W-Lj-2tt"/>
-                                    <constraint firstItem="Rpu-wE-Nc4" firstAttribute="centerX" secondItem="Kue-qT-Uqc" secondAttribute="centerX" id="wQJ-62-9Iq"/>
-                                    <constraint firstAttribute="bottom" secondItem="d2e-iC-QXp" secondAttribute="bottom" constant="18" id="xOT-Fd-5cm"/>
-                                    <constraint firstAttribute="trailing" secondItem="Rpu-wE-Nc4" secondAttribute="trailing" constant="13" id="xjQ-Ba-mMA"/>
-                                    <constraint firstItem="Rpu-wE-Nc4" firstAttribute="width" secondItem="Kue-qT-Uqc" secondAttribute="width" constant="-25" id="xxf-AM-qUN"/>
-                                </constraints>
-                            </scrollView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dAj-Xy-UMq">
-                                <rect key="frame" x="0.0" y="20" width="375" height="74"/>
-                                <items>
-                                    <navigationItem title="検索条件設定" prompt="あおいサーチ" id="OHa-9S-atv">
-                                        <barButtonItem key="backBarButtonItem" title="戻る" id="use-hV-NnH"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Kue-qT-Uqc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="94" id="47p-Er-O30"/>
-                            <constraint firstItem="Kue-qT-Uqc" firstAttribute="leading" secondItem="dAj-Xy-UMq" secondAttribute="leading" id="KZ1-aH-46m"/>
-                            <constraint firstItem="Kue-qT-Uqc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="WxZ-sp-0uS"/>
-                            <constraint firstItem="Kue-qT-Uqc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a5U-Pl-Tl4"/>
-                            <constraint firstAttribute="trailing" secondItem="Kue-qT-Uqc" secondAttribute="trailing" id="d3J-Xx-o5q"/>
-                            <constraint firstItem="Kue-qT-Uqc" firstAttribute="trailing" secondItem="dAj-Xy-UMq" secondAttribute="trailing" id="j7e-0g-npS"/>
-                            <constraint firstItem="Kue-qT-Uqc" firstAttribute="top" secondItem="dAj-Xy-UMq" secondAttribute="bottom" id="sJu-X0-jhf"/>
-                            <constraint firstItem="Kue-qT-Uqc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="z8x-tN-tM5"/>
-                            <constraint firstAttribute="bottom" secondItem="Kue-qT-Uqc" secondAttribute="bottom" id="za2-xF-pRK"/>
-                        </constraints>
-                    </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="900"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="searchContextCell" rowHeight="80" id="7cU-Uh-CWv" customClass="SearchContextTableViewCell" customModule="AoiSearch" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7cU-Uh-CWv" id="j4b-Ty-Etx">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="79"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="がっつり肉系ランチ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QjV-7Y-vvI">
+                                            <rect key="frame" x="105" y="28.666666666666664" width="230" height="22.999999999999993"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="230" id="LiE-2x-wt1"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SearchContextIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Atf-1n-v8S">
+                                            <rect key="frame" x="35" y="20" width="40" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="C6I-uv-04K"/>
+                                                <constraint firstAttribute="width" constant="40" id="IG5-dR-82n"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="QjV-7Y-vvI" firstAttribute="centerY" secondItem="j4b-Ty-Etx" secondAttribute="centerY" id="BCx-SX-YM2"/>
+                                        <constraint firstItem="Atf-1n-v8S" firstAttribute="leading" secondItem="j4b-Ty-Etx" secondAttribute="leading" constant="35" id="XY0-r4-EUT"/>
+                                        <constraint firstItem="Atf-1n-v8S" firstAttribute="centerY" secondItem="j4b-Ty-Etx" secondAttribute="centerY" id="loL-M4-HHj"/>
+                                        <constraint firstItem="QjV-7Y-vvI" firstAttribute="leading" secondItem="Atf-1n-v8S" secondAttribute="trailing" constant="30" id="yiR-6r-e00"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="searchContextThumbnailImageView" destination="Atf-1n-v8S" id="u94-pC-TXB"/>
+                                    <outlet property="searchContextTitleLabel" destination="QjV-7Y-vvI" id="b53-KK-YI5"/>
+                                    <segue destination="gLm-jN-GsN" kind="show" identifier="showPlaces" id="TLy-O3-xYx"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="FTX-iz-8Be" id="3cx-73-D6y"/>
+                            <outlet property="delegate" destination="FTX-iz-8Be" id="99T-v1-dqw"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="追加" id="H5F-KF-1Yg">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="170" vertical="0.0"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" title="Index" id="kq6-OW-cA7">
+                        <barButtonItem key="rightBarButtonItem" title="編集" id="qXf-yw-1GJ"/>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IGM-80-l4H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="77.536231884057983" y="174.45652173913044"/>
+            <point key="canvasLocation" x="-375" y="143"/>
+        </scene>
+        <!--Place Table View Controller-->
+        <scene sceneID="1pX-pa-b8X">
+            <objects>
+                <tableViewController title="Place Table View Controller" id="gLm-jN-GsN" customClass="PlaceTableViewController" customModule="AoiSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="1FY-SH-8Kg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlaceCell" rowHeight="80" id="B2W-YT-H3j" customClass="PlaceTableViewCell" customModule="AoiSearch" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B2W-YT-H3j" id="vJ9-Qr-gr4">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="79"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZq-c3-JSu">
+                                            <rect key="frame" x="138" y="29" width="230" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="230" id="yU2-Ew-CH6"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="LZq-c3-JSu" firstAttribute="centerY" secondItem="vJ9-Qr-gr4" secondAttribute="centerY" id="BQY-YD-6fm"/>
+                                        <constraint firstItem="LZq-c3-JSu" firstAttribute="leading" secondItem="vJ9-Qr-gr4" secondAttribute="leadingMargin" constant="130" id="ekF-Iq-H2D"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="placeTitleLabel" destination="LZq-c3-JSu" id="WaJ-6n-Izq"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gLm-jN-GsN" id="lF6-Oj-0ao"/>
+                            <outlet property="delegate" destination="gLm-jN-GsN" id="lBO-BT-nuv"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Search Results" id="xho-Sv-aQu">
+                        <barButtonItem key="backBarButtonItem" title="戻る" id="TUx-4d-yq5"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oSy-XP-46b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="437.68115942028987" y="143.47826086956522"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3Ad-T6-d2c">
+            <objects>
+                <navigationController id="F7A-QN-fXl" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MJu-zA-ldG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="FTX-iz-8Be" kind="relationship" relationship="rootViewController" id="fQj-0y-Nb2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6MN-Rw-09a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1215" y="145"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SearchContextIcon" width="426" height="426"/>
+    </resources>
 </document>
