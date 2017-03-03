@@ -18,10 +18,12 @@
 		34AC95F01E5F169A007016A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AC95EE1E5F169A007016A6 /* LaunchScreen.storyboard */; };
 		34F032771E67E80C00CCAD4D /* SearchContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F032761E67E80C00CCAD4D /* SearchContext.swift */; };
 		34F032791E67FF9500CCAD4D /* SearchContextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F032781E67FF9500CCAD4D /* SearchContextTableViewCell.swift */; };
+		4D9728B1FE54AE55B888EB67 /* Pods_Abstract_AoiSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA7121B894F6EC02FECCAB8 /* Pods_Abstract_AoiSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16BF71DA55C9BC2BAECC4E8B /* Pods-AoiSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AoiSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AoiSearch/Pods-AoiSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA7121B894F6EC02FECCAB8 /* Pods_Abstract_AoiSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_AoiSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		341AC8C61E67B7C300C0AE91 /* SearchContextTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContextTableViewController.swift; sourceTree = "<group>"; };
 		342D33861E680AFA00795B47 /* PlaceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewController.swift; sourceTree = "<group>"; };
 		34486B831E680E2E00200A09 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
@@ -34,6 +36,8 @@
 		34AC95F11E5F169A007016A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34F032761E67E80C00CCAD4D /* SearchContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContext.swift; sourceTree = "<group>"; };
 		34F032781E67FF9500CCAD4D /* SearchContextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchContextTableViewCell.swift; sourceTree = "<group>"; };
+		5514FBB12F474CC4A58B34C4 /* Pods-Abstract-AoiSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-AoiSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-AoiSearch/Pods-Abstract-AoiSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		971BE45D580050CABDECB040 /* Pods-Abstract-AoiSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-AoiSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-AoiSearch/Pods-Abstract-AoiSearch.release.xcconfig"; sourceTree = "<group>"; };
 		ABB6B97D072CA3F60C631333 /* Pods_AoiSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AoiSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65DBC35CD738FD6B1240D29 /* Pods-AoiSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AoiSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-AoiSearch/Pods-AoiSearch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F8E5F04AA93ADFD028B350 /* Pods_AoiSearch.framework in Frameworks */,
+				4D9728B1FE54AE55B888EB67 /* Pods_Abstract_AoiSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +60,8 @@
 			children = (
 				16BF71DA55C9BC2BAECC4E8B /* Pods-AoiSearch.debug.xcconfig */,
 				C65DBC35CD738FD6B1240D29 /* Pods-AoiSearch.release.xcconfig */,
+				5514FBB12F474CC4A58B34C4 /* Pods-Abstract-AoiSearch.debug.xcconfig */,
+				971BE45D580050CABDECB040 /* Pods-Abstract-AoiSearch.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB6B97D072CA3F60C631333 /* Pods_AoiSearch.framework */,
+				2BA7121B894F6EC02FECCAB8 /* Pods_Abstract_AoiSearch.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,7 +196,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AoiSearch/Pods-AoiSearch-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-AoiSearch/Pods-Abstract-AoiSearch-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		345FFB271E5F18A300B6F5BD /* ShellScript */ = {
@@ -216,7 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AoiSearch/Pods-AoiSearch-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-AoiSearch/Pods-Abstract-AoiSearch-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D00E37E9B595C661AA09572C /* [CP] Check Pods Manifest.lock */ = {
@@ -231,7 +239,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -366,7 +374,7 @@
 		};
 		34AC95F51E5F169A007016A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16BF71DA55C9BC2BAECC4E8B /* Pods-AoiSearch.debug.xcconfig */;
+			baseConfigurationReference = 5514FBB12F474CC4A58B34C4 /* Pods-Abstract-AoiSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UHB4CBC373;
@@ -380,7 +388,7 @@
 		};
 		34AC95F61E5F169A007016A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C65DBC35CD738FD6B1240D29 /* Pods-AoiSearch.release.xcconfig */;
+			baseConfigurationReference = 971BE45D580050CABDECB040 /* Pods-Abstract-AoiSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UHB4CBC373;
