@@ -66,6 +66,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		346FB8BA1E694B2D00F15D4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34486B831E680E2E00200A09 /* Place.swift */,
+				34F032761E67E80C00CCAD4D /* SearchContext.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		346FB8BB1E694B4000F15D4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34AC95E51E5F169A007016A6 /* AppDelegate.swift */,
+				342D33861E680AFA00795B47 /* PlaceTableViewController.swift */,
+				341AC8C61E67B7C300C0AE91 /* SearchContextTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		346FB8BC1E694BA400F15D4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				346FB8BD1E694BB500F15D4C /* TableViewCell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		346FB8BD1E694BB500F15D4C /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				34486B851E68101100200A09 /* PlaceTableViewCell.swift */,
+				34F032781E67FF9500CCAD4D /* SearchContextTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		346FB8BE1E694BD500F15D4C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				34AC95EE1E5F169A007016A6 /* LaunchScreen.storyboard */,
+				34AC95E91E5F169A007016A6 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
 		34AC95D91E5F169A007016A6 = {
 			isa = PBXGroup;
 			children = (
@@ -87,17 +132,12 @@
 		34AC95E41E5F169A007016A6 /* AoiSearch */ = {
 			isa = PBXGroup;
 			children = (
-				34AC95E51E5F169A007016A6 /* AppDelegate.swift */,
-				34AC95E91E5F169A007016A6 /* Main.storyboard */,
-				34486B851E68101100200A09 /* PlaceTableViewCell.swift */,
-				342D33861E680AFA00795B47 /* PlaceTableViewController.swift */,
-				34486B831E680E2E00200A09 /* Place.swift */,
-				34F032781E67FF9500CCAD4D /* SearchContextTableViewCell.swift */,
+				346FB8BE1E694BD500F15D4C /* Storyboard */,
+				346FB8BC1E694BA400F15D4C /* View */,
+				346FB8BB1E694B4000F15D4C /* Controller */,
+				346FB8BA1E694B2D00F15D4C /* Model */,
 				34AC95EC1E5F169A007016A6 /* Assets.xcassets */,
-				34AC95EE1E5F169A007016A6 /* LaunchScreen.storyboard */,
 				34AC95F11E5F169A007016A6 /* Info.plist */,
-				341AC8C61E67B7C300C0AE91 /* SearchContextTableViewController.swift */,
-				34F032761E67E80C00CCAD4D /* SearchContext.swift */,
 			);
 			path = AoiSearch;
 			sourceTree = "<group>";
